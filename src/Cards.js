@@ -1,8 +1,12 @@
 const Card = ({ title, content, color }) => {
   const cardStyle = {
-    width: '18rem',
+    width: '36rem',
     margin: '10px',
-    backgroundColor: color || 'white', // Use the specified color or default to white
+    backgroundColor: color || 'white', 
+  };
+
+  const contentStyle = {
+    color: contentColor || 'white',
   };
 
   return (
