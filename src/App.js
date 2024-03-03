@@ -12,9 +12,9 @@ function App() {
        <p>WVU ID: 800288188</p>
        <p>Hi I am Arjun Vijay</p>
        <div className="card-container">
-        <Cards title="Card 01" content="Some quick example text to build on the card title and make up the bulk of the card's content" />
-        <Cards title="Card 02" content="Some quick example text to build on the card title and make up the bulk of the card's content" />
-        <Cards title="Card 03" content="Some quick example text to build on the card title and make up the bulk of the card's content" />
+        <Cards title="Card 01" content="Some quick example text to build on the card title and make up the bulk of the card's content" color = "blue"/>
+        <Cards title="Card 02" content="Some quick example text to build on the card title and make up the bulk of the card's content" color = "red"/>
+        <Cards title="Card 03" content="Some quick example text to build on the card title and make up the bulk of the card's content" color = "green"/>
       </div>
        </div>
   
