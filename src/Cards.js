@@ -11,6 +11,7 @@ const Card = ({ title, content, color }) => {
 
   return (
     <div className="card" style={cardStyle}>
+      <div className="card-body" style={contentStyle}></div>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{content}</p>
