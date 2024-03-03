@@ -6,18 +6,17 @@ const Card = ({ title, content, color }) => {
   };
 
   const contentStyle = {
-    color: contentColor || 'white',
+    color: color || 'white',
   };
 
   return (
     <div className="card" style={cardStyle}>
       <div className="card-body" style={contentStyle}>
-      <div className="card-body">
+      
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{content}</p>
         </div>
       </div>
-    </div>
   );
 };
 
